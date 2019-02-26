@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/uGUI_Simple.unity
     guid: d50139ab1d3f5254983bd1cbe3a3ad5c
+  - enabled: 1
+    path: Assets/Scenes/UI-grab.unity
+    guid: 6ea15f5b2a4818040aa33d86af426ba9
   m_configObjects: {}

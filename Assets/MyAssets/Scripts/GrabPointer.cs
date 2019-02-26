@@ -35,6 +35,8 @@ public class GrabPointer : MonoBehaviour
         }
     }
 
+    public LayerMask grabLayer;
+
     // Update is called once per frame
     void Update()
     {
@@ -45,7 +47,7 @@ public class GrabPointer : MonoBehaviour
 
         // Rayがヒットした位置を取得
         RaycastHit hitInfo;
-        if (Physics.Raycast(pointerRay, out hitInfo, _maxDistance))
+        if (Physics.Raycast(pointerRay, out hitInfo, _maxDistance,grabLayer))
         {
             // ヒットしたオブジェクトを取得
             GameObject hitObj = hitInfo.collider.gameObject;
