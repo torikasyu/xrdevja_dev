@@ -6,7 +6,7 @@
 /Assets/AssetStoreTools*
 /[Aa]pp*/
 
-/Assets/Oculus/
+#/Assets/Oculus/
 
 # Visual Studio 2015 cache directory
 /.vs/
