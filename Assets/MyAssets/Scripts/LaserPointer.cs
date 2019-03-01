@@ -27,6 +27,10 @@ namespace xrdevja
             {
                 // 現在アクティブなコントローラーを取得
                 var controller = OVRInput.GetActiveController();
+
+                //print(controller.ToString());
+
+
                 if (controller == OVRInput.Controller.RTrackedRemote
                     || controller == OVRInput.Controller.RTouch
 
